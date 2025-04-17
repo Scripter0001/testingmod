@@ -1,7 +1,10 @@
-elements.red_dust = {
-    color: "#ff0000",
+elements.banana_powder = {
+    color: "#ffe135",
     behavior: behaviors.POWDER,
-    category: "land",
+    category: "food",
     state: "solid",
-    density: 1200
+    density: 1200,
+    reactions: {
+        "fire": { "elem1": null, "elem2": "fire" }
+    }
 };
